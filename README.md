@@ -1,7 +1,7 @@
 Project: Knights Travails
 =============
 
-An algorithm that outputs the shortest path a Knight can take from one square to another in a Chess board.
+An algorithm that outputs the shortest path a Knight can take from one square to another in a Chessboard.
 
 Here's the [live project demo.](https://alansobchacki.github.io/odin-js-knights-travails)
 
@@ -12,19 +12,20 @@ This project was completed as part of [The Odin Project](https://www.theodinproj
 
 These were the project requirements:
 
-- [x] build a function that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
+- [x] Build a function that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 
 What I Learned
 -----
 
-The hardest project I've came across The Odin Project, so far. While I was familiar with Breadth First Search algorithms, learning about graphs, vertices, and edges was interesting. The concept themselves weren't hard, but translating them into code was tough.
+The hardest project I've come across The Odin Project, so far. While I was familiar with Breadth First Search algorithms, learning about graphs, vertices, and edges was interesting. The concepts weren't hard, but translating them into code was rough.
 
 Notes
 -----
+If you visit the website, you'll see that nothing is displayed. This is intended behavior. The project only required a working algorithm. 
 
-The function knightTravails() takes two parameters: the starting square, and the ending square. If you open the console, this function is called with the parameters of ([0, 0], [3, 3]), and correctly outputs the smallest path possible ([0,0] -> [2,1] -> [3,3]) and how many steps were required (2). 
+You can open the console window to see it in action. The function knightTravails() is called with the parameters of ([0, 0], [3, 3]).
 
-My main goal was to build a working algorithm. Allowing users to tweak the parameters through DOM manipulation wasn't a goal, but I'll implement this later. It just feels a waste to design an algorithm like this and not allow people to test this function with different parameters. 
+It correctly outputs the smallest path possible ([0,0] -> [2,1] -> [3,3]) and how many steps were required (2). 
 
-Alas, I have more shiny toys in mind to build.
+My main goal was to build a working algorithm. Allowing users to tweak the parameters or implementing visuals wasn't a requirement. It does feel like a waste not to implement these, and it certainly wouldn't take that long, but I have more shiny toys to build right now.
