@@ -26,6 +26,23 @@ If you visit the website, you'll see that nothing is displayed. This is intended
 
 You can open the console window to see it in action. The function knightTravails() is called with the parameters of ([0, 0], [3, 3]).
 
+[0,0] being the coordinates of the starting square, and [3,3] being the coordinates of the ending square.
+
+It helps to visualize these coordinates if you think of a matrix that represents a chessboard:
+
+[
+  [S, 1, 2, 3, 4, 5, 6, 7],
+  [0, 1, 2, 3, 4, 5, 6, 7],
+  [0, 1, 2, 3, 4, 5, 6, 7],
+  [0, 1, 2, E, 4, 5, 6, 7],
+  [0, 1, 2, 3, 4, 5, 6, 7],
+  [0, 1, 2, 3, 4, 5, 6, 7],
+  [0, 1, 2, 3, 4, 5, 6, 7],
+  [0, 1, 2, 3, 4, 5, 6, 7],
+]
+
+(S equals [0,0] and E equals [3,3]).
+
 It correctly outputs the smallest path possible ([0,0] -> [2,1] -> [3,3]) and how many steps were required (2). 
 
 My main goal was to build a working algorithm. Allowing users to tweak the parameters or implementing visuals wasn't a requirement. It does feel like a waste not to implement these, and it certainly wouldn't take that long, but I have more shiny toys to build right now.
