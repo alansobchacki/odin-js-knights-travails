@@ -30,16 +30,15 @@ You can open the console window to see it in action. The function knightTravails
 
 It helps to visualize these coordinates if you think of a matrix that represents a chessboard:
 
-[
-  [S, 1, 2, 3, 4, 5, 6, 7],
-  [0, 1, 2, 3, 4, 5, 6, 7],
-  [0, 1, 2, 3, 4, 5, 6, 7],
-  [0, 1, 2, E, 4, 5, 6, 7],
-  [0, 1, 2, 3, 4, 5, 6, 7],
-  [0, 1, 2, 3, 4, 5, 6, 7],
-  [0, 1, 2, 3, 4, 5, 6, 7],
-  [0, 1, 2, 3, 4, 5, 6, 7],
-]
+| S | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| 0 | 1 | 2 | E | 4 | 5 | 6 | 7 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 
 (S equals [0,0] and E equals [3,3]).
 
